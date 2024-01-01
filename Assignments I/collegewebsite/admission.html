@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+  </head>
+  <style>
+    header img {
+      float: left;
+      padding-right: 20px;
+    }
+    header h1 {
+      padding-top: 20px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    
+    }
+    header nav {
+      padding: 10px;
+      background-color: darkslategray;
+      margin-top: 40px;
+    }
+    nav a {
+      color: white;
+      padding-inline: 10px;
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <header>
+      <img src="tu.png" width="80px" />
+      <h1>Patan Multiple Campus</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+    </header>
+    <h2 style="text-align: center">Admission form</h2>
+    <hr />
+    <form>
+      <label> Firstname </label>
+      <input type="text" name="firstname" size="15" /> <br />
+      <br />
+      <label> Middlename: </label>
+      <input type="text" name="middlename" size="15" /> <br />
+      <br />
+      <label> Lastname: </label>
+      <input type="text" name="lastname" size="15" /> <br />
+      <br />
+
+      <label> Course : </label>
+      <select>
+        <option value="Course">Course</option>
+        <option value="Sociology">Sociology</option>
+        <option value="Computer science">Computer science</option>
+        <option value="hotel management">Hotem Management</option>
+        <option value="English">English</option>
+        <option value="Business studies">Business studies</option>
+        <option value="Mathematics">Mathematics</option>
+      </select>
+
+      <br />
+      <br />
+      <label> Gender : </label><br />
+      <input type="radio" name="male" /> Male <br />
+      <input type="radio" name="female" /> Female <br />
+      <input type="radio" name="other" /> Other
+      <br />
+      <br />
+
+      <label> Phone : </label>
+      <input type="text" name="country code" value="+977" size="2" />
+      <input type="text" name="phone" size="10" /> <br />
+      <br />
+      Address:
+      <textarea cols="80" rows="5" value="address"> </textarea>
+      <br />
+      <br />
+      SEE DOCUMENTS:
+      <input type="file" id="doc" name="doc" /> <br />
+      <br />
+      <br />
+      +2 DOCUMENTS:
+      <input type="file" id="2doc" name="2doc" /> <br />
+      <br />
+      <br />
+      CITIZENSHIP:
+      <input type="file" id="cdoc" name="cdoc" /> <br />
+      <br />
+      <input type="button" value="Submit" />
+      <input type="button" value="Reset" />
+    </form>
+  </body>
+</html>

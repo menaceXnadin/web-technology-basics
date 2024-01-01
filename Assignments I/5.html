@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-5</title>
+  </head>
+  <body>
+    <h1>Employee Registration Form</h1>
+    <form >
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" id="dob" name="dob" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+      <label for="position">Position:</label>
+      <input type="text" id="position" name="position">
+      <br>
+      <br>
+      <label for="department">Department:</label>
+      <select id="department" name="department">
+        <option value="hr">Finance</option>
+        <option value="tech">Technology</option>
+        <option value="sales">marketing</option>
+      </select>
+      <br>
+      <br>
+      Gender:
+      <label for="male" >Male</label>
+      <input type="radio" name="sex" id="male"/>
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="female"/>
+      <br><br>
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" accept=".pdf,.doc,.docx"><br><br>
+      <!-- <input type="submit" value="Submit" /> -->
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
